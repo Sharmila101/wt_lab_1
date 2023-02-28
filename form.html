@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<title>BST</title>
+<style>
+.nav {
+  background-color: yellow; 
+  list-style-type: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.nav li {
+  display: inline-block;
+  font-size: 20px;
+  padding: 20px;
+}
+Div {
+  border: 5px outset red;
+  background-color: lightblue;    
+  text-align: center;
+ font-size: 25px;
+}
+
+
+</style>
+
+
+
+<h1 style="color:Green;"><center>DELL BOOKING SYSTEM</center></h1>
+
+ <body style="background-color:pink">
+
+<ul class="nav">
+  <li><a href="#home">Home</a></li>
+  <li><a href="#about">About Us</a></li>
+  <li><a href="#clients">Our Clients</a></li>  
+  <li><a href="#contact">Contact Us</a></li>
+</ul>
+
+
+<form action="/action_page.php">
+ <fieldset>
+  <legend><b>Details of Product:</b></legend><br><br>
+  <label for="fname">First name:</label>
+  <input type="text" id="fname"placeholder="Enter your first name here" name="fname"><br><br>
+
+  <label for="lname">Last name:</label>
+  <input type="text" id="lname"placeholder="Enter your last name here" name="lname"><br><br>
+  <label for="email">Email:</label>
+  <input type="email" id="email" name="email"><br><br>
+  <label for="birthday">Birthday:</label>
+  <input type="date" id="birthday" name="birthday"><br><br>
+<label for="Product ">Product Needed:</label>
+<select name="Product" id="Product Needed">
+    <option value="Laptops">Laptops</option>
+  <option value="Desktops">Desktop</option>
+  <option value="Workstation">Workstation</option>
+  <option value="Camera">Camera</option>
+<option value="Printer">Printer</option>
+<option value="HDTV">HDTV</option>
+</select><br><br>
+</label>  
+<input type="text" name="country code"  value="+91" size="2"/>   
+<input type="text" name="phone" size="10"/> <br> <br>  
+<label for="lname">Address:</label>
+  <textarea id="Address" name="Address" rows="4" cols="50"> 
+ 
+</textarea>  
+<br> 
+<br>
+ <label>
+ Mode of payment
+</label>  <br>
+<input type="radio" id="Mode of payment" name="Mode of payment" value="online"/> online
+<br>
+<input type="radio" id="Mode of payment" name="Mode of payment" value="offline"/> offline<br>
+<p>Click on the <span style="color:violet;font-weight:bold">"Choose File"</span> button to upload a payment conformation file :</p>
+<p>Mandatory only for online payment*</p>
+
+
+  <input type="file" id="myFile" name="filename"> <br><br>
+  <input type="submit" value="Submit">
+ </fieldset>
+<div><p style="color:Red;"><marquee width="60%" direction="left" height="100px">
+<span style="color: blue;font-weight:bold">"Free"</span>cost of delivery.
+</marquee></p></div>
+</form>
+
+</body>
+</html>
+
